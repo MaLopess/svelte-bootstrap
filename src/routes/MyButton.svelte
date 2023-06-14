@@ -1,11 +1,18 @@
 <script>
 	export let color;
+    export let outline;
 	
 	function getClass(prefix, suffix) {
 		if(!suffix) {
+        
 			return '';
+            
 		}
+        if(outline) {
+            return `${prefix}-outline-${suffix}`;  
+        }
 		return `${prefix}-${suffix}`;
+        
 	}
 </script>
 
