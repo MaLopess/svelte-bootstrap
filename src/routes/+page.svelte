@@ -2,9 +2,6 @@
 	import Button from './MyButton.svelte';
 </script>
 
-<Button color='secondary'>hello</Button>
-
-
 <h1>Bem-vindo ao meu projeto</h1>
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 <Button>Base class</Button>
