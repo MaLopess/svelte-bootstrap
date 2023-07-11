@@ -5,7 +5,7 @@
    </script>
 
 <Header></Header>
-<Alert color ='primary'> Deu certo </Alert> 
+<Alert color ='primary'> +Deu certo </Alert> 
 
 
 <h1>Bem-vindo ao meu projeto</h1>
