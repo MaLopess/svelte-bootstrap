@@ -1,6 +1,13 @@
 <script>
   export let color;
   export let outline;
+
+  const iconMap = {
+    primary: "info-fill",
+    success: "check-circle-fill",
+    danger: "exclamation-triangle-fill",
+    warning: "exclamation-triangle-fill",
+  };
 </script>
 
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -23,37 +30,7 @@
 
 <div class="alert alert-{color} d-flex align-items-center" role="alert">
   <svg class="bi flex-shrink-0 me-2" role="img" aria-label="Info:"
-    ><use xlink:href="#info-fill" /></svg
+    ><use xlink:href="#{iconMap[color]}" /></svg
   >
   <div><slot /></div>
 </div>
-
-<div class="alert alert-{color} success d-flex align-items-center" role="alert">
-  <svg class="bi flex-shrink-0 me-2" role="img" aria-label="Success:"
-    ><use xlink:href="#check-circle-fill" /></svg
-  >
-  <div><slot /></div>
-</div>
-
-<div class="alert alert-{color}  d-flex align-items-center" role="alert">
-  <svg class="bi flex-shrink-0 me-2" role="img" aria-label="Warning:"
-    ><use xlink:href="#exclamation-triangle-fill" /></svg
-    >
-    <div><slot /></div>
-  </div>
-
-<div class="alert alert-{color}  d-flex align-items-center" role="alert">
-  <svg class="bi flex-shrink-0 me-2" role="img" aria-label="Danger:"
-    ><use xlink:href="#exclamation-triangle-fill" /></svg
-    >
-    <div><slot /></div>
-  </div>
-
-<style>
-	.bi {
-	  width: 1em;
-	  height: 1em;
-	  vertical-align: -0.125em;
-	  fill: currentcolor;
-	}
-  </style>
