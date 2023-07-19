@@ -61,15 +61,15 @@
 </div>
 
 <div>
-<Alert color ='primary'> Primary </Alert> 
-<Alert color= 'success'> Success </Alert>
-<Alert color= 'danger'> Danger </Alert>
-<Alert color= 'warning'> Warning </Alert>
+<Alert color ='primary'> An example alert with an icon</Alert> 
+<Alert color= 'success'> An example success alert with an icon </Alert>
+<Alert color= 'danger'> An example danger alert with an icon </Alert>
+<Alert color= 'warning'> An example warning alert with an icon </Alert>
 
-<Alert color='primary' outline >Primary</Alert>
-<Alert color='success' outline >Success</Alert>
-<Alert color='danger' outline >Danger</Alert>
-<Alert color='warning' outline >Warning</Alert>
+<Alert color='primary' outline >An example alert with an icon</Alert>
+<Alert color='success' outline >An example success alert with an icon</Alert>
+<Alert color='danger' outline >An example danger alert with an icon</Alert>
+<Alert color='warning' outline >An example warning alert with an icon</Alert>
 </div>
 
 <Badge></Badge>

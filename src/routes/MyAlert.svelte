@@ -10,6 +10,8 @@
   };
 </script>
 
+
+
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
   <symbol id="check-circle-fill" viewBox="0 0 16 16">
     <path
@@ -29,8 +31,8 @@
 </svg>
 
 <div class="alert alert-{color} d-flex align-items-center" role="alert">
-  <svg class="bi flex-shrink-0 me-2" role="img" aria-label="Info:"
-    ><use xlink:href="#{iconMap[color]}" /></svg
+  <svg class="bi flex-shrink-0 me-2 img-fluid" width="24" height="24" role="img" aria-label="Info:"
+   ><use xlink:href="#{iconMap[color]}" /></svg
   >
   <div><slot /></div>
 </div>
