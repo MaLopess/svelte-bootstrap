@@ -11,6 +11,8 @@
 
 <h1>Bem-vindo ao meu projeto</h1>
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
+<div>
 <Button>Base class</Button>
 
 <Button color= 'primary'> Primary </Button>
@@ -30,8 +32,9 @@
 <Button color= 'dark'> Dark </Button>
 
 <Button color= 'link'> Link </Button>
+</div>
 
-
+<div></div>
 <Button color='primary' outline >Primary</Button>
 
 <Button color='secondary' outline >Secondary</Button>
@@ -60,6 +63,8 @@
   <button type="button" class="btn btn-primary">Right</button>
 </div>
 
+<div><Badge></Badge></div>
+
 <div>
 <Alert color ='primary'> An example alert with an icon</Alert> 
 <Alert color= 'success'> An example success alert with an icon </Alert>
@@ -71,8 +76,6 @@
 <Alert color='danger' outline >An example danger alert with an icon</Alert>
 <Alert color='warning' outline >An example warning alert with an icon</Alert>
 </div>
-
-<Badge></Badge>
 
 <Carousel></Carousel>
 
