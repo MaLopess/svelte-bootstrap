@@ -6,13 +6,13 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="..." class="d-block w-100" alt="...">
+        <img src="https://picsum.photos/200" class="d-block w-20" alt="https://picsum.photos/200">
       </div>
       <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
+        <img src="https://picsum.photos/id/237/200" class="d-block w-20" alt="https://picsum.photos/id/237/200">
       </div>
       <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
+        <img src="https://picsum.photos/seed/picsum/200" class="d-block w-20" alt="https://picsum.photos/seed/picsum/200">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
