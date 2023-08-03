@@ -6,6 +6,7 @@
   import Carousel from './MyCarousel.svelte';
   import ListGroup from './MyListGroup.svelte';
   import Card from './MyCard.svelte';
+ 
    </script>
 
 <Header></Header>
