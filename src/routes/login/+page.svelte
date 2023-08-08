@@ -4,7 +4,8 @@
   let email = '';
   let checkbox = "checkbox";
   function entrar(params) {
-    alert('email: ' + email + ' password: ' + password  + ' checkbox: ' + checkbox);
+       alert ('Entre com suas credenciais para acessar o conteudo');
+
   }
 </script>
 <Header/>
@@ -13,8 +14,8 @@
 <body>
   <div class="container mt-4">
   <div class="row align-items-center">
-  <div class="col-md-5 m-auto col-lg-5">
-    <form class="p4 p-md-3 border rounded-3 bg-info">
+  <div class="col-sm-3 m-auto col-lg-3">
+    <form class="p4 p-md-3 border rounded-4 bg-info">
   <div class="form-floating mb-3">
        </div>
     
