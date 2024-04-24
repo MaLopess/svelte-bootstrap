@@ -6,7 +6,8 @@
   import Carousel from './MyCarousel.svelte';
   import ListGroup from './MyListGroup.svelte';
   import Card from './MyCard.svelte';
- 
+  import Extensao from './MyExtensao.svelte';
+   
    </script>
 
 <Header></Header>
@@ -84,5 +85,7 @@
 <ListGroup></ListGroup>
 
 <Card></Card>
+
+<Extensao></Extensao>
 
 

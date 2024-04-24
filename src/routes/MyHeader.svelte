@@ -36,8 +36,24 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/login">Login</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Comunidade
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/assistentes">Assistentes</a></li>
+              <li><a class="dropdown-item" href="/conhecimentos">Conhecimentos</a></li>
+              <li><a class="dropdown-item" href="/publicar">Publicar</a></li>
+              <li><a class="dropdown-item" href="/extensao">Extensão</a></li> 
+              <li><a class="dropdown-item" href="/conta">Conta</a></li>
+            </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="/extensions">Extension</a>
+            </ul>
+           </div>
+    </div> 
+  </nav>
+
+
+
